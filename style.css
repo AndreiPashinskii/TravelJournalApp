@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    background-color: #F55A5A;
+    padding: 1.2em;
+}
+
+.header--text {
+    margin: 0 10px;
+}
+
+.fa-earth-americas {
+    font-size: 1.5em;
+}
+
+.fa-location-dot {
+    color: #F55A5A;
+    font-size: 1.2em;
+}
+
+.header--logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.travelcards-container {
+    margin: 3.5em 0;
+}
+
+.spot--card {
+    display: flex;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 600px;
+
+}
+
+.spot--img {
+    height: 168px;
+    width: 125px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.spot--location {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin: 0;
+}
+
+.spot--info {
+    margin-left: 1em;
+    color: #2B283A;
+}
+
+.spot--link {
+    font-size: .85em;
+    margin-left: 1.5em;
+    color: #918E9B;
+}
+
+.spot--country {
+    letter-spacing: .185em;
+    font-size: 1.125em;
+    margin: .5em;
+    text-transform: uppercase;
+}
+
+.spot--name {
+    margin: 0;
+}
+
+.spot--dates {
+    font-size: .85em;
+    font-weight: 700;
+    margin: 2em 0 0 0;
+}
+
+.spot--about {
+    font-size: .85em;
+    margin-top: .5em;
+    margin-bottom: 0;
+}
